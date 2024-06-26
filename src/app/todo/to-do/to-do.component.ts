@@ -29,4 +29,4 @@ this.taskService.addtask(task).subscribe(
   }
 )
 }
-} 
+} // Add to-do component and template
