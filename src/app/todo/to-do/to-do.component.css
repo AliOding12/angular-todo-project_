@@ -1,0 +1,48 @@
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;     /* Fixed height */
+    margin: 20px;       /* Space around the card */
+    position: relative; /* Allows for top/left/right/bottom positioning */
+    top: 50px;          /* Move the card 10px down */
+    left: 30px;         /* Move the card 50px to the right */
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1em;
+    color: #333333;
+}
+.btn{
+    height: 40px;
+    width: 54px;
+    background-color: rgb(0, 146, 49);
+    color: #ffffff;
+    position: relative;
+    top: -14px;
+    left: 35%;
+    border-radius: 16%;
+    border-color: rgb(0, 123, 10);
+}
+.btn:hover{
+    background-color: #16ef0f;
+}
+.input{
+    display: block;
+    width: 100%;      /* Make the input take the full width of its container */
+    margin-bottom: 10px; /* Space between input fields */
+    padding: 8px;     /* Add some padding for better appearance */
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    left: 5%;
+}

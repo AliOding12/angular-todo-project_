@@ -1,0 +1,10 @@
+.container{
+    border: 5%;
+    border-color: black;
+}
+.list{
+    border: 2px solid #8e8b8b;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(28, 28, 28, 0.1);
+    text-align: left;
+}

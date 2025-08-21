@@ -1,0 +1,18 @@
+<div class="card">
+    <!--just going to add the main todo components here such as add or delete button the rest are internal ones-->
+    <h2>To Do List</h2>
+    
+    <div class="inputs">
+        <label for="name" [(ngModel)]="task1" >Name:</label>
+        <input class="input" type="text" placeholder="Enter your name"><br>
+        <label  for="time">Time:</label>
+        <input class="input" type="day" placeholder="Enter Date and Time" [(ngModel)]="task1"><br>
+        <label for="reminder">Reminder:</label>
+        <input type="radio" name="reminder" [(ngModel)]="task1" >
+        <button (click)="Onclick(task1)" class="btn" id="addbut">add</button>
+    </div>
+    <div>
+        <app-items  [data]="taskData"></app-items>
+    </div>
+</div>
+<router-outlet></router-outlet>
